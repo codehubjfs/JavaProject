@@ -33,7 +33,7 @@ public class DriverClass{
 		
 		//usage of reduce method
 		Integer [] numbers = new Integer[] {4,2,6,1,7,3,3,9};
-		int odd = Arrays.stream(numbers).filter(x->x%2!=0).distinct().map(x->x*2).re//reduce(0,(ans,i)-> ans+i);
+		int odd = Arrays.stream(numbers).filter(x->x%2!=0).distinct().map(x->x*2).reduce(0,(ans,i)-> ans+i);//Changed by me :)
 		System.out.println(odd);
 		//int sum = Arrays.stream(numbers).a
 		//usage of set
