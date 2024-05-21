@@ -23,7 +23,7 @@ public class DriverClass{
 		//with Strings - usage of filter method
 		Collection<String> collection = Arrays.asList("Model", "Race", "Race","Reflection","Model","Spain","Football");
 		List<String> streamOfCollection = collection.stream()
-											.filter(s->s.startsWith("R"))
+											.filter(s->s.startsWith("M"))
 											.collect(Collectors.toList());
 		System.out.println(streamOfCollection);
 		
@@ -39,6 +39,7 @@ public class DriverClass{
 		//usage of set
 		Set<String> streamStringSet = collection.stream().collect(Collectors.toSet());
 		System.out.println(streamStringSet);
+                System.out.println("THis was edited by feature-branch-8);
 		
 	}
 }
