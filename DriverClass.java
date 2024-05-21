@@ -40,6 +40,7 @@ public class DriverClass{
 		Set<String> streamStringSet = collection.stream().collect(Collectors.toSet());
 		System.out.println(streamStringSet);
                 System.out.println("THis was edited by feature-branch-8);
+                System.out.println("Vicky is a Hero");
 		
 	}
 }
