@@ -50,7 +50,5 @@ public class DriverClass{
 =======
 		System.out.println("Gautham is Mass");
 >>>>>>> eb12242885e9ecd3c11538ee04ee3a28c4ec3b7e
-
-	System.out.pritnln("Ram the mass");
 	}
 }

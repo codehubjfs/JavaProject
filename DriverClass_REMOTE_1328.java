@@ -45,12 +45,6 @@ public class DriverClass{
 		System.out.println("Correction Done");
 >>>>>>> 2143c5a229a3b0aa1c22697fe3a5c94b511e1ad9
 
-<<<<<<< HEAD
-		System.out.print("vicky the mass");
-=======
 		System.out.println("Gautham is Mass");
->>>>>>> eb12242885e9ecd3c11538ee04ee3a28c4ec3b7e
-
-	System.out.pritnln("Ram the mass");
 	}
 }
