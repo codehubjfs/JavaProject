@@ -26,15 +26,15 @@ public class DriverClass{
 											.filter(s->s.startsWith("R"))
 											.collect(Collectors.toList());
 		System.out.println(streamOfCollection);
-		
+		//printing the collection using streams
 		//usage of sorted method
 		List<String> streamStringSorted = collection.stream().sorted().collect(Collectors.toList());
 		System.out.println(streamStringSorted);
-		
+		System.out.print("hello ");
 		//usage of reduce method
 		Integer [] numbers = new Integer[] {4,2,6,1,7,3,3,9};
 		int odd = Arrays.stream(numbers).filter(x->x%2!=0).distinct().map(x->x*2).re//reduce(0,(ans,i)-> ans+i);
-		System.out.println(odd);
+		System.out.println("odd "+odd);
 		//int sum = Arrays.stream(numbers).a
 		//usage of set
 		Set<String> streamStringSet = collection.stream().collect(Collectors.toSet());
