@@ -1,6 +1,6 @@
 package com.streams;
 
-
+<<<<<<< HEAD
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
@@ -13,7 +13,8 @@ import java.util.stream.Stream;
 //Gopal
 //Samrutha
 //Samrutha
-
+=======
+>>>>>>> 52a1fa800b244b453d3535b38e8fc51615526bc7
 public class DriverClass{
 
 	public static void main(String[] args) {
@@ -22,10 +23,11 @@ public class DriverClass{
 		System.out.println("Sample java file");
 
 		
-
+<<<<<<< HEAD
 		System.out.println('JFS')
 		
-//Stream Iterate returns void
+=======
+		//Stream Iterate returns void
 		Stream.iterate(1,next->next+1).filter(list->list%5==0).limit(5)
 											.forEach(value -> System.out.print(value+"\t"));
 		//usage of map and collect method
@@ -53,6 +55,6 @@ public class DriverClass{
 		//usage of set
 		Set<String> streamStringSet = collection.stream().collect(Collectors.toSet());
 		System.out.println(streamStringSet);
-
+>>>>>>> 52a1fa800b244b453d3535b38e8fc51615526bc7
 	}
 }

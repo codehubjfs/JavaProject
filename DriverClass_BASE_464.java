@@ -1,31 +1,17 @@
 package com.streams;
 
-
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-//Ram Kumar 
-//Ram Kumar
-//Gopal
-//Gopal
-//Samrutha
-//Samrutha
 
 public class DriverClass{
 
 	public static void main(String[] args) {
-
-
-		System.out.println("Sample java file");
-
 		
-
-		System.out.println('JFS')
-		
-//Stream Iterate returns void
+		//Stream Iterate returns void
 		Stream.iterate(1,next->next+1).filter(list->list%5==0).limit(5)
 											.forEach(value -> System.out.print(value+"\t"));
 		//usage of map and collect method
@@ -47,12 +33,12 @@ public class DriverClass{
 		
 		//usage of reduce method
 		Integer [] numbers = new Integer[] {4,2,6,1,7,3,3,9};
-		int odd = Arrays.stream(numbers).filter(x->x%2!=0).distinct().map(x->x*2).reduce(0,(ans,i)-> ans+i);//Changed by me :)
+		int odd = Arrays.stream(numbers).filter(x->x%2!=0).distinct().map(x->x*2).re//reduce(0,(ans,i)-> ans+i);
 		System.out.println(odd);
 		//int sum = Arrays.stream(numbers).a
 		//usage of set
 		Set<String> streamStringSet = collection.stream().collect(Collectors.toSet());
 		System.out.println(streamStringSet);
-
+		
 	}
 }
