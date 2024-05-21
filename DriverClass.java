@@ -3,7 +3,7 @@ package com.streams;
 public class DriverClass{
 
 	public static void main(String[] args) {
-
+		System.out.println("Hi Ram Kumar ");
 
 		System.out.println("Sample java file");
 		for(int i=0;i<5;i++){
@@ -38,7 +38,11 @@ public class DriverClass{
 		//usage of set
 		Set<String> streamStringSet = collection.stream().collect(Collectors.toSet());
 		System.out.println(streamStringSet);
+<<<<<<< HEAD
 		System.out.println("MADDY | PIRA | JANA" );
                 System.out.println("Once U Start!,There's no going Back!");
+=======
+		System.out.println("Correction Done");
+>>>>>>> 2143c5a229a3b0aa1c22697fe3a5c94b511e1ad9
 	}
 }
