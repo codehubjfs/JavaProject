@@ -40,7 +40,7 @@ public class DriverClass{
 		List<String> streamStringSet = collection.stream().collect(Collectors.toList());
 		System.out.println(streamStringSet);
 
-		int[]arr=new arr[]{1,2,3,4,5};
+		int[]arr=new arr[]{1,2,3,4,5,6,7,8,9,10};
 		for(int i:arr){
 			System.out.println(i);
 		}	
