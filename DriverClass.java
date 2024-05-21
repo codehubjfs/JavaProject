@@ -1,15 +1,12 @@
 package com.streams;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
-import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 public class DriverClass{
 
 	public static void main(String[] args) {
+
+
+		System.out.println("Sample java file");
+
 		
 		//Stream Iterate returns void
 		Stream.iterate(1,next->next+1).filter(list->list%5==0).limit(5)
@@ -39,6 +36,5 @@ public class DriverClass{
 		//usage of set
 		Set<String> streamStringSet = collection.stream().collect(Collectors.toSet());
 		System.out.println(streamStringSet);
-		
 	}
 }
