@@ -39,6 +39,11 @@ public class DriverClass{
 		//usage of set
 		List<String> streamStringSet = collection.stream().collect(Collectors.toList());
 		System.out.println(streamStringSet);
+
+		int[]arr=new arr[]{1,2,3,4,5};
+		for(int i:arr){
+			System.out.println(i);
+		}	
 		
 	}
 }
