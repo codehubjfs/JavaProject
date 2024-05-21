@@ -6,7 +6,9 @@ public class DriverClass{
 
 
 		System.out.println("Sample java file");
-
+		for(int i=0;i<5;i++){
+			System.out.println("Welcome....!");
+		}
 		
 		//Stream Iterate returns void
 		Stream.iterate(1,next->next+1).filter(list->list%5==0).limit(5)
