@@ -38,5 +38,6 @@ public class DriverClass{
 		//usage of set
 		Set<String> streamStringSet = collection.stream().collect(Collectors.toSet());
 		System.out.println(streamStringSet);
+		System.out.println("MADDY | PIRA | JANA" );
 	}
 }
