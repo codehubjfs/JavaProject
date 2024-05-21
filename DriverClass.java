@@ -49,5 +49,6 @@ public class DriverClass{
         // Usage of set
         Set<String> streamStringSet = collection.stream().collect(Collectors.toSet());
         System.out.println("Collection as a set: " + streamStringSet);
+	System.out.println("Correction collected");
     }
 }
