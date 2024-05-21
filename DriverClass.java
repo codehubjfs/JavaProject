@@ -28,7 +28,7 @@ public class DriverClass{
 		System.out.println(streamOfCollection);
 		
 		//usage of sorted method
-		List<String> streamStringSorted = collection.stream().sorted().collect(Collectors.toList());
+		List<String> streamStringSorted = collection.stream().sorted().collect(Collectors.toList()).reversed();
 		System.out.println(streamStringSorted);
 		
 		//usage of reduce method
